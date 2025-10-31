@@ -1,8 +1,5 @@
-
-
 import Contact from "./Contact";
 import { motion } from "framer-motion";
-
 const About = () => {
   const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
@@ -10,98 +7,81 @@ const About = () => {
   };
 
   return (
-    <div className="text-white max-w-6xl mx-auto p-6 pt-28 space-y-12">
-   
+    <div className="text-white max-w-6xl mx-auto px-4 sm:px-6 md:px-8 pt-28 pb-20 space-y-16">
       <motion.h1
-        className="text-4xl md:text-5xl font-bold text-center underline underline-offset-4 decoration-white cursor-pointer"
+        className="text-4xl md:text-4xl font-bold text-center underline underline-offset-4 decoration-white cursor-pointer hover:text-blue-500"
         variants={fadeInUp}
         initial="hidden"
         animate="visible"
         transition={{ duration: 0.6 }}
-        whileHover={{ scale: 1.05, color: "#3B82F6", transition: { duration: 0.3 } }}
+        whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
       >
         About CryptoTracker
       </motion.h1>
-
-     
-      <motion.p
-        className="text-lg md:text-xl leading-relaxed cursor-pointer"
+      <motion.div
+        className="space-y-6 text-base sm:text-lg md:text-xl leading-relaxed text-gray-300 max-w-5xl mx-auto text-justify"
         variants={fadeInUp}
         initial="hidden"
         animate="visible"
         transition={{ duration: 0.6, delay: 0.1 }}
-        whileHover={{ x: 5, color: "#60A5FA", transition: { duration: 0.3 } }}
       >
-        CryptoTracker is a modern React application providing live cryptocurrency prices.
-        Track the top 21 cryptocurrencies, switch between USD, EUR, and INR, and search for your
-        favorite coins in real-time. The app uses CoinGecko's API for live market data.
-      </motion.p>
+        <p>
+          <strong>CryptoTracker</strong> is a sleek and responsive
+          cryptocurrency tracking app that provides live market data for the top
+          21 cryptocurrencies. It’s designed to offer accurate prices, easy
+          navigation, and a smooth user experience — all powered by real-time
+          updates.
+        </p>
 
-     
-      <div className="md:flex md:gap-16">
-       
-        <motion.div
-          className="md:flex-1 mb-8 md:mb-0"
-          variants={fadeInUp}
-          initial="hidden"
-          animate="visible"
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
-          <h2 className="text-3xl font-bold mb-4 cursor-pointer hover:text-blue-400 transition-colors duration-300">
-            Features
-          </h2>
-          <ul className="list-disc list-inside space-y-2 text-lg md:text-xl">
-            {[
-              "Live price tracking of top 21 cryptocurrencies",
-              "Search and filter coins in real-time",
-              "Switch between USD, EUR, and INR currencies",
-              "Detailed coin view with market stats and history",
-              "Responsive design for desktop and mobile",
-            ].map((item, index) => (
-              <motion.li
-                key={index}
-                whileHover={{ color: "#3B82F6", scale: 1.02, transition: { duration: 0.3 } }}
-              >
-                {item}
-              </motion.li>
-            ))}
-          </ul>
-        </motion.div>
+        <p>
+          Users can easily switch between multiple currencies such as USD, EUR,
+          and INR, search for specific coins, and explore detailed market
+          insights. Every coin page provides a clear view of trends, market
+          stats, and history — making CryptoTracker ideal for both beginners and
+          traders who need reliable, fast data.
+        </p>
 
-        <motion.div
-          className="md:flex-1"
-          variants={fadeInUp}
-          initial="hidden"
-          animate="visible"
-          transition={{ duration: 0.6, delay: 0.3 }}
-        >
-          <h2 className="text-3xl font-bold mb-4 cursor-pointer hover:text-blue-400 transition-colors duration-300">
-            Technologies Used
-          </h2>
-          <ul className="list-disc list-inside space-y-2 text-lg md:text-xl">
-            {[
-              "React.js with Functional Components & Hooks",
-              "React Router DOM for navigation",
-              "Tailwind CSS for styling and responsive design",
-              "Framer Motion for animations and hover effects",
-              "Axios & CoinGecko API for fetching crypto data",
-              "Chart.js or Recharts for coin price charts",
-              "Web3Forms for contact form integration",
-              "React Icons for adding icons",
-            ].map((item, index) => (
-              <motion.li
-                key={index}
-                whileHover={{ color: "#3B82F6", scale: 1.02, transition: { duration: 0.3 } }}
-              >
-                {item}
-              </motion.li>
-            ))}
-          </ul>
-        </motion.div>
-      </div>
-
+        <p>
+          With its clean interface and mobile-first design, CryptoTracker
+          ensures you stay updated on the go. Whether you're exploring the
+          crypto world or monitoring your portfolio, it’s your all-in-one
+          solution for live crypto insights.
+        </p>
+      </motion.div>
       <motion.div
-        className="cursor-pointer"
+        className="bg-gray-900/50 border border-gray-700 rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-blue-500/10 transition-all"
+        variants={fadeInUp}
+        initial="hidden"
+        animate="visible"
+        transition={{ duration: 0.6, delay: 0.3 }}
+      >
+        <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-blue-400 text-center">
+          Key Features
+        </h2>
+        <ul className="list-disc list-inside space-y-3 text-base sm:text-lg text-gray-300 max-w-3xl mx-auto">
+          {[
+            "Live crypto price tracking with instant updates",
+            "Interactive live graphs showing price trends",
+            "Currency switcher (USD, EUR, INR)",
+            "Search and filter coins in real time",
+            "Detailed market stats and historical data",
+            "Responsive, fast, and modern UI",
+          ].map((item, index) => (
+            <motion.li
+              key={index}
+              whileHover={{
+                color: "#60A5FA",
+                x: 5,
+                transition: { duration: 0.3 },
+              }}
+            >
+              {item}
+            </motion.li>
+          ))}
+        </ul>
+      </motion.div>
+      <motion.div
+        className="cursor-pointer mt-16"
         variants={fadeInUp}
         initial="hidden"
         animate="visible"

@@ -1,5 +1,3 @@
-
-
 import { useParams } from "react-router-dom";
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
@@ -118,8 +116,7 @@ const handleChartClick = (event) => {
 };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-900 min-h-screen p-6">
-      
+    <div className="flex flex-col items-center justify-center bg-gray-900 min-h-screen p-6">  
       <div className="mb-6">
         <select
           value={currency}

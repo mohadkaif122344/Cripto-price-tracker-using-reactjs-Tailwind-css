@@ -8,13 +8,10 @@ const Home = () => {
     
       <div className="animate-fadeIn delay-100">
         <SearchBar />
-      </div>
-
-     
+      </div>     
       <div className="animate-slideUp delay-200">
         <CoinList />
       </div>
-
       <div className="animate-fadeInScale delay-300">
         <About />
       </div>
