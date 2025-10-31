@@ -9,6 +9,7 @@ A modern Crypto Price Tracker built with React + Vite that shows live cryptocurr
 
 ** Local Dev URL: http://localhost:5173/
 
+<img width="1910" height="1021" alt="Screenshot 2025-10-31 194543" src="https://github.com/user-attachments/assets/acb32445-1bf1-4209-afef-90533aea122a" />
 
 ## 🚀 Features
 
@@ -111,21 +112,17 @@ Create a free account at Web3Forms
 
 ## Screenshot 
 ------
-<img width="1910" height="1021" alt="Screenshot 2025-10-31 194543" src="https://github.com/user-attachments/assets/8bce0d3d-f1e2-4b00-abc6-8955560cd976" />
 
-<img width="1916" height="1017" alt="Screenshot 2025-10-31 194602" src="https://github.com/user-attachments/assets/aa10f220-5a8a-49a8-a093-fdddd72058f1" />
-
-<img width="1919" height="1021" alt="Screenshot 2025-10-31 194617" src="https://github.com/user-attachments/assets/843bae9d-f0af-4089-a2d9-d6e1044366bf" />
-
-<img width="1906" height="1021" alt="Screenshot 2025-10-31 194637" src="https://github.com/user-attachments/assets/c9754b69-5eea-48a6-b1ef-99ea579f5ab7" />
-
-<img width="1913" height="1019" alt="Screenshot 2025-10-31 194716" src="https://github.com/user-attachments/assets/a300cb85-feaf-4fe4-af84-4be919c0c4af" />
+<img width="1910" height="1021" alt="Screenshot 2025-10-31 194543" src="https://github.com/user-attachments/assets/efefc15a-893b-4192-9b73-37bd12dcd085" />
 
 
+<img width="1916" height="1017" alt="Screenshot 2025-10-31 194602" src="https://github.com/user-attachments/assets/410efdb1-0863-4282-b554-af35f93720f0" />
 
+<img width="1919" height="1021" alt="Screenshot 2025-10-31 194617" src="https://github.com/user-attachments/assets/5c3aacfe-b50c-47d6-8c48-fdec57b551b0" />
 
+<img width="1906" height="1021" alt="Screenshot 2025-10-31 194637" src="https://github.com/user-attachments/assets/f170c3db-c369-406e-ac6d-16ddd14b1cae" />
 
-
+<img width="1913" height="1019" alt="Screenshot 2025-10-31 194716" src="https://github.com/user-attachments/assets/35d1debe-2df1-4a6d-90b2-de27c82b0c42" />
 
 
 
