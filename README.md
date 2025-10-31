@@ -5,7 +5,7 @@ A modern Crypto Price Tracker built with React + Vite that shows live cryptocurr
 
 ## Live and Local URLs
 
-** 🔗 Live Site:https://crypto-price-tracker-web.vercel.app/
+** 🔗 Live Site:https://cripto-price-tracker-using-reactjs.vercel.app/
 
 ** Local Dev URL: http://localhost:5173/
 
@@ -96,7 +96,7 @@ This project is deployed on Vercel. To deploy your own version:
 
 5.Deploy with a custom domain or default Vercel domain.
 
-** 🔗 Live Site:https://crypto-price-tracker-web.vercel.app/
+** 🔗 Live Site:https://cripto-price-tracker-using-reactjs.vercel.app/
 
 ## 🌍 API Source
 
