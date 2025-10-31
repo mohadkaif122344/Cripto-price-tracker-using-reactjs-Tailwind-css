@@ -1,9 +1,16 @@
 
-📊 CryptoTracker
+# 📊 CryptoTracker
 
 A modern Crypto Price Tracker built with React + Vite that shows live cryptocurrency prices, charts, and detailed information. The app includes multi-currency support (USD, EUR, INR), responsive design, and smooth animations.
 
-🚀 Features
+## Live and Local URLs
+
+** 🔗 Live Site:https://crypto-price-tracker-web.vercel.app/
+
+** Local Dev URL: http://localhost:5173/
+
+
+## 🚀 Features
 
 🏠 Pages: Home, About, Contact
 
@@ -25,7 +32,7 @@ A modern Crypto Price Tracker built with React + Vite that shows live cryptocurr
 
 ⚡ Fast Build Tool: Powered by Vite
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 React.js (Functional Components & Hooks)
 
@@ -45,13 +52,13 @@ Web3Forms for contact form handling
 
 
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 Clone the repository
 
-git clone https://github.com/your-username/crypto-tracker.git
+git clone https://github.com/mohadkaif122344/Crypto-price-tracker-using-reactjs.git
 
-cd crypto-tracker
+cd Crypto-price-tracker-using-vite+reactjs
 
 
 Install dependencies
@@ -63,32 +70,60 @@ Start development server
 
 npm run dev
 
+Then open your browser and go to http://localhost:5173/
 
-Build for production
+
+### Build for production
 
 npm run build
 
-🌍 API Source
+## 🌍 Deployment:
 
-Data fetched from CoinGecko API
+This project is deployed on Vercel. To deploy your own version:
+
+1.Push your project to GitHub.
+
+2.Go to Vercel.
+
+3.Import the GitHub repository.
+
+4.Configure:
+
+.Build Command → npm run build
+
+.Output Directory → dist
+
+5.Deploy with a custom domain or default Vercel domain.
+
+** 🔗 Live Site:https://crypto-price-tracker-web.vercel.app/
+
+## 🌍 API Source
+
+### Data fetched from CoinGecko API
 .
 
-📧 Contact Form Setup
+### 📧 Contact Form Setup
 
 The Contact Page uses Web3Forms for form submission.
 
 Create a free account at Web3Forms
 .
 
-Replace your access_key in the form component.
+## Screenshot 
+------
+<img width="1910" height="1021" alt="Screenshot 2025-10-31 194543" src="https://github.com/user-attachments/assets/8bce0d3d-f1e2-4b00-abc6-8955560cd976" />
 
-![alt text](<Screenshot 2025-09-16 214253.png>) 
+<img width="1916" height="1017" alt="Screenshot 2025-10-31 194602" src="https://github.com/user-attachments/assets/aa10f220-5a8a-49a8-a093-fdddd72058f1" />
 
-![alt text](<Screenshot 2025-09-16 214013.png>) 
-![alt text](<Screenshot 2025-09-16 213926.png>) 
+<img width="1919" height="1021" alt="Screenshot 2025-10-31 194617" src="https://github.com/user-attachments/assets/843bae9d-f0af-4089-a2d9-d6e1044366bf" />
 
-![alt text](<Screenshot 2025-09-16 213904.png>)
- ![alt text](<Screenshot 2025-09-16 213756.png>)
+<img width="1906" height="1021" alt="Screenshot 2025-10-31 194637" src="https://github.com/user-attachments/assets/c9754b69-5eea-48a6-b1ef-99ea579f5ab7" />
+
+<img width="1913" height="1019" alt="Screenshot 2025-10-31 194716" src="https://github.com/user-attachments/assets/a300cb85-feaf-4fe4-af84-4be919c0c4af" />
+
+
+
+
 
 
 
